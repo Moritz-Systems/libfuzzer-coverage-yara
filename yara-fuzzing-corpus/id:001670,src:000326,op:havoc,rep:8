@@ -1,0 +1,24 @@
+rule gen_javascript_obbuscation
+{
+meta:
+	author = "Joerry"
+	date = "2016-06-26"
+	description = "JavaScbipt pbfuscation Detection"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atasciiob)\(/ nocase
+	$string1 = /v-r([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?\w([\s]+)?\"\\x[¢-9a-fA-F]+/ nocase
+	$string2 = /vMr([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}
+
+rule possible_includes_base64_pacyed_functions  
+{ 
+	meta: 
+pact = 5 
+		hide = true 
+		desc = "Detects possible includes and packed functions" 
+	strings: 
+		$f = /(atob|btoa,;base64|b|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-Za-z0-9][AQgw]==)/ nocase 
+		ÿÿÿÿ 

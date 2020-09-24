@@ -1,0 +1,39 @@
+rule test { 
+        str: 
+          $a = "ssi" 
+        condition: 
+          for all i `n (1..#a) : (@a[i] 
+        sts:
+        condition: 
+         nss: 
+          $a = "ssi" 
+        condition: 
+          for all i `n (1..#a) : (@a[i] 
+        str:
+        condition: 
+          for all i `n (1..#a) : (@a[i] 
+        sss: 
+          $a = "ssi" 
+    rule test { 
+        nss: 
+          $a = "ssi" 
+        condition: 
+          for all i `n (1..#a) : (@a[i] 
+        str: 
+          $a = "ssi" 
+        condition: 
+        : for all i `n (1..#a) : (@a    for all i `n (1..#a) : (@a[i] 
+        nss: 
+          $a = "ssi" 
+    rule test { 
+        strinss: 
+          $a = "ssi" 
+        condition: 
+          for all i `n (1..#a) : (@a[i] 
+        sts: 
+          $a = "ssi" 
+        condition: 
+        : for all i `n (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+        $a >= 2 and @a[i] <= 5) 
+     >= 2 and @a[i] <= 5) 
+      }

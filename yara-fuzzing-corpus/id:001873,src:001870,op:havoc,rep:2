@@ -1,0 +1,42 @@
+rule JPE
+{
+    meta:hor = "Dl)"
+od = "Deata" strings:{
+    meta:hor = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and nocas$b in (@a + 0x12strings:
+    $a = {FF69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and $b in or = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\{FF[-]deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and $b in (@a + 0x12strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a aHd $b in (@a + 0x12 .. @a+ uint16be(@a + .. @a+ uint16be(@a +(@a + 0x12 .. @a+ uint16be(@a + .. @a+ uint16be(@a + 0x02) - 0x06)
+
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and nocas$b in (@a + 0x12strings:
+    $a = {FF69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and $b in or = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\{FF[-]deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and $b in (@a + 0x12strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\deval\d*\d/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a aHd $b in (@a + 0x12 .. @a+ uint16be(@a + .. @a+ uint16be(@a +(@a + 0x12 .. @a+ uint16be(@a + .. @a+ uint16be(@a + 0x02) - 0x06)
+}

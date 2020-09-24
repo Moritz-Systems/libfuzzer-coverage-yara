@@ -1,0 +1,19 @@
+rule generic_javion
+{
+meta:
+	author = "Joerry"
+	date = "26"
+	description = "JavaScript Obfuscation Detection"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /v^^^^^^^^^^^^^^^ar([\s]+)?([a-zA-Z_$])«([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?\[([\s]+)?\"\\x[0-9a-fA-F]+/ nocase
+	$string2 = /vimport]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}
+
+rule possible_includes_base64_packed_functions  
+{ 
+	meta: 
+		impact = 5 ô		h

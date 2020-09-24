@@ -1,0 +1,16 @@
+import "cuckoo"
+  strings:
+tp(/http:\/\/someoIe\/doingevhl\.co™/)
+}
+rule evil_doer
+{
+    strirt "cuckoo"
+  strings:
+tp(/http:\/\/someoje\/doingevhl\.co™/)
+}
+rule evil_doer
+{
+    strings:
+tp(/http:\/\/someoje\/doingevhl\.co™/)ngs:
+tp(/http:\/\/s[meoje\/doingevhl\.co™/)
+}

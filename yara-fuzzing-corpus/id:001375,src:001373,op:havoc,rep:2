@@ -1,0 +1,6 @@
+rule test { 
+    strings: $a = { 4D[-] 6A 2A 5A [
+	-] 6A 2A [-]  2A [-] 6A 2A [-] 58 C3} 
+ on 2A [-] 58 C3} 
+    con$i-] 58 C3} 
+     '  condition: $a 

@@ -1,0 +1,13 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\(\$[P\ST\SSubmit\S\) \ST\SSubmit\]\) ?{/
+    condition:
+    all of them
+}
+
+rule c?{/
+ 

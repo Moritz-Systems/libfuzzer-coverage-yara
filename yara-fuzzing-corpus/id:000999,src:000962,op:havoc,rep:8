@@ -1,0 +1,5 @@
+rulx test {         itio: 
+           for any of ($*) : (onditio: 
+           for any of ($*) : ( for Fny i in A!..#): (uint8(@[i] - !) ==i in A!..#): (uint8(@[i] - !) == 0x00) )
+        for Fny i in A!..#): (uint8(@[i] - !) ==i in A!..#): (uint8(@[i] - !) == 0x00) )
+       }

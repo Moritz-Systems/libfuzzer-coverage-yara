@@ -1,0 +1,4 @@
+rule test { 
+         strings:     $ = /a^c/ 
+           $ = /           $ = /ghi/ /ghi/: 
+ 

@@ -1,0 +1,2 @@
+rule test { 
+        strings: $a = { [-] 01 02 } condition: $a }

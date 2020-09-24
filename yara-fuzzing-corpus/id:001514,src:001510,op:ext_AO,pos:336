@@ -1,0 +1,16 @@
+rule test { 
+         strings: 
+     
+           $ = /def/ 
+           $ = /ghi/ nocase
+           $ = /abc/ 
+               
+           $ = /def/ 
+           $ = /ghi/ nocase
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (!..#): (uint8(@[i] - !) == 0and $ = /def/ 
+           $ = /ghi/ 
+         cond

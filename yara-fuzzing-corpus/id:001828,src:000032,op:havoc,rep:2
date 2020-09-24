@@ -1,0 +1,2 @@
+rule test { 
+        strings: $a = " condition: $a at 2      strings: $a = " condition: $a at 2 and $a at 5and $a at 5 }

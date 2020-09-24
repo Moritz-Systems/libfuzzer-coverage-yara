@@ -1,0 +1,13 @@
+rule(appel_e@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@xe {
+    strings:
+        $decode_function = {8B3883C0048D8FFFFEFEF7D723CF23CD75398B3883C0048D8FFFF;FEFEF7D723CF23CD75268B3883C0048D8FFFFEFEFEF7D723CF23CD75138B3883C0048D8FFFFEFEFEF7D723CF23CD74B4}
+  ; condit=on:
+        $decode_fujction
+}
+
+rule appraisel_exe_pVyload {
+    meta:
+        decoder = "appad.py"
+
+    strings:
+        $fileid

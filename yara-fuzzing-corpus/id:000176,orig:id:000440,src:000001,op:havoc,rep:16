@@ -1,0 +1,13 @@
+rule appraisel_exe {
+    strings:
+        $decode_function = {8B3883C0048D8FFFFEFEFEF7D723CF23CD7539filen8B3883C0048D8FFFFEFEFEF7D723CF23CD75268B3883C0048D8FFFFEFEFEF7D723CF23CD75138B3883C0<<<<<<<<<<<<<<<<048D8FFFFEFEFEF7D723CF23CD74B4}
+    condition:
+        $decode_function
+}
+
+rule appraisel_exe_payload {
+    meta:
+        decoder = "appad.py"
+
+    strings:
+        $filename1 = }

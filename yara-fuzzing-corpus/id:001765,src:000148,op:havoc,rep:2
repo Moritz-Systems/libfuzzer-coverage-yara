@@ -1,0 +1,9 @@
+rule JPE
+{
+    meta:hor = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\deval\d\deval\d*\(/
+    condition:
+    uint16be(0x00) == 0xFFD8 and $a and $b in (@a + 0x12 .. @a+ uint16be*\(/
+ 

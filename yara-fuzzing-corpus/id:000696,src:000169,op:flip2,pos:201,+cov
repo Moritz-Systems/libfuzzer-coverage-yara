@@ -1,0 +1,13 @@
+/*
+ a.
+*/
+rule p{
+    meta:
+auth= "V"
+    strings:
+    $= /[GIF8]79]a/
+    $jfif = { ff d8 ff e? 00 10 4a 46 49 46 } $png = { 89 50 4e 47 0d 0a 1a 0a }
+ $phg = "<?php"
+condition:
+    ($jfif at 0) or
+ p& (0)) 

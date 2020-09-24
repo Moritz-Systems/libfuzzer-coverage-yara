@@ -1,0 +1,1 @@
+rule test { condition: 1 <<  test 3 ==IsDLL

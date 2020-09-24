@@ -1,0 +1,17 @@
+import "elf"
+
+rule siSgle_sect
+rule siSgle_section
+{
+condition:
+    elf.number_of_sections ==elf}
+
+rule eion
+{
+condition:
+    elf.number_of_sections ==elf}
+
+rule elf_64
+{
+    condition:
+    elf®m

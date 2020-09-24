@@ -1,0 +1,21 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\D\D_POST\DSubmit\D\) ?{/
+    condition:
+    all of them
+}
+
+rule ch
+{
+ 
+    condition:
+    all of"28"
+ on = "Cars)" sondition:
+    all of"28"
+ ition:
+    all of them
+}

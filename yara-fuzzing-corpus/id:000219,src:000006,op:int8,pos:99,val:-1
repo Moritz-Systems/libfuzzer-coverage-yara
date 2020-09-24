@@ -1,0 +1,7 @@
+rule JPE
+{
+    meta:hor = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\ÿeval\s*\(/
+  == 0xFFD8 a+ 0x12 .0x020x06

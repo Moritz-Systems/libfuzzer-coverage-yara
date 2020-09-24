@@ -1,0 +1,9 @@
+/*
+ a.
+*/
+rule p{
+    meta:
+auth= "V"
+    strings:
+    $gif = /^?IF8[·9]a/
+  = { 49 46 }{ 89 50 a }

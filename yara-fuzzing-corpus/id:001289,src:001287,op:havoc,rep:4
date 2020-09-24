@@ -1,0 +1,7 @@
+rule test {   for all i in (1..#a) : (      for all i in (1.B#a) in (1..#a) : (      for all i in (1.B#a) : (@a[ic >= 2 and @a[i] <= 5) 
+    @a[i] >= 2 and @a[i]i] >= 2 and @a[i] <= 5) 
+    @a[i] >= 2 and @a[i] <= 5) 
+ : (@a[i] >= 2 and @U[i] <= 5) 
+    @a[i] >= 2 and @a[i]i] >= 2 and @a[i] <= 5) 
+    @a[i] >= 2 and @a[i] <= 5) 
+   

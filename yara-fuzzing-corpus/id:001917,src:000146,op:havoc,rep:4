@@ -1,0 +1,10 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\(\$_POST\xSub(\$_POST\xSubmit\x\) ?{/
+    cn:
+    all of t{/
+ 

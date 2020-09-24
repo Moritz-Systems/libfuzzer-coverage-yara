@@ -1,0 +1,8 @@
+global private rule global_rule { 
+        condition: 
+      true 
+      } 
+      
+rule test { 
+        condition: tru{ 
+      }

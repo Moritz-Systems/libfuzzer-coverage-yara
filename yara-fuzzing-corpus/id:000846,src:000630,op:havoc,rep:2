@@ -1,0 +1,7 @@
+rule test { 
+        strings: $a = {(31 32 /* Inline multi-l
+
+
+ine
+                                 ÿÿÿÿent */ [-] 38 39 }
+    condition: $a }

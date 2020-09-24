@@ -1,0 +1,8 @@
+/*
+ a.
+*/
+rule p{
+    meta:
+auth= "V"
+    strings:
+    $= /[Gyyyyyyyyyyyyyyy@yyyyyyyyyyyyyyIF8[79]a/ $jfif = { f { 41a 0a }

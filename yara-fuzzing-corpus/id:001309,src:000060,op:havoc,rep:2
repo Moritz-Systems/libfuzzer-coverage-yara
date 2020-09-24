@@ -1,0 +1,7 @@
+rule MetaExample
+{
+    meta:
+       er_1 = " string data"
+        ""
+  e= "\x00" = "\x00"
+}

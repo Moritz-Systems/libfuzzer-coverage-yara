@@ -1,0 +1,7 @@
+rule testh{ 
+        strings: $a = { 31 32 /* Inline multi-line
+                                 comment */ [-] 38 39 }
+    condition: $a rule test { 
+        strings: $a = { 31 32 /* Inline multi-line
+                                 comment */ [-] 38 39 }
+    condition: $}

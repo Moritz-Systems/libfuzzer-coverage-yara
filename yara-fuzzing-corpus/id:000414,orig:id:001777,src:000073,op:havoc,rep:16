@@ -1,0 +1,6 @@
+rule RPgExpExatest1
+{
+    strings:
+   ;    $= /md5: [e2 = /stat0-9a-zA-Z]{32}/à        $re2 = /state: (on|off)/
+
+   

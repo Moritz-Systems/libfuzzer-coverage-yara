@@ -1,0 +1,87 @@
+rule test { 
+        sle test { 
+        str: 
+          $a = "ssi" *       dition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 a { 
+        sle test { 
+        strings: 
+          $a = "ssi" 
+        coa = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+        3 for all i in (1..#a) : (@a[i] >= 2 annd @a[i] <= 5) [i] <= 5) 
+     trkngs: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 a { 
+        sle test { 
+        strings: 
+     : 
+          $a = "ssi" 
+        co     $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 aa[i] >= 2 a { 
+ ndition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+        3 for all i in (1..#a) : (@a[i] >= 2 annd @a[i] <= 5) [i] <= 5) 
+     trkngs: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@ 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 a { 
+        sle test { 
+        strings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+        3 for all i in (1..#a) : (@a[i] >= 2 annd @a[i] <= 5) [i] <= 5) 
+     trkngs: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 a { 
+        sle test { 
+        strings: 
+     : 
+          $a = "ssi" 
+        co     $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 aa[i] >= 2 a { 
+        sle test { 
+        strings: 
+     : 
+          $a = "ssi" 
+        co     $a = "ssi" 
+        condition: 
+          for all i in (1..#a) : (@a[i] >= 2 and @a[i] <= 5) 
+     trings: 
+          $a = "ssi" 
+        [i] <= 5) 
+     trkngs: 
+          $a = "ssi" 
+        condition:  condition: 
+          for all i in (1..#a) : (@a[i] >= 2 annd @a[i] <=
+    

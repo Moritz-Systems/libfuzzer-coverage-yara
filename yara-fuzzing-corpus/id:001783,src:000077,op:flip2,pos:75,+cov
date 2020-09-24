@@ -1,0 +1,9 @@
+rule WideCharTextExample2
+{
+    strings:
+        $wide_and_ascii_string = "rorland" wide ascii
+	$wide_string = "Borland" wide
+
+    condition:
+       $wide_and_ascii_string and $wide_string
+}

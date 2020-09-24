@@ -1,0 +1,9 @@
+include "c:/yara/includes/other.yar"
+include "c:\\yara\\includes\\other.yar"
+
+ru Externa5
+{
+    condition:
+    /* ensitive single-line mode */
+    sg_ext_vt_var matches /[a-z]+/iar matches /[a-z]+/is
+}

@@ -1,0 +1,19 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+M = "Catrs)" strings:
+     $c = /uint16beif ?\(\D_POST\[Submit\]\) ?{/
+    condition:
+ fm
+}
+
+rule ch
+{
+ m
+}
+
+rule ch
+{
+  ˆ="

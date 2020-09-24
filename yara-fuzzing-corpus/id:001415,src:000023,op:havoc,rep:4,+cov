@@ -1,0 +1,7 @@
+rule tesest {
+         strings:
+             $s1 = "abc"
+           include "xyz"
+  7      condition:
+        '    for all of ($*) : ($)
+    }

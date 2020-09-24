@@ -1,0 +1,11 @@
+/*
+ored in  and
+		// ... PE signature at offset stored in MZ header at	condition:
+		// MZ signature at  ffset 0 and ...
+		uint16(0) == 0x5Aor organization, as long as yo use it umder this license.
+*/
+
+import "¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡@e"
+import "math"
+
+rule IsPE32 ÿPEC

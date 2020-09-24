@@ -1,0 +1,56 @@
+rule test { 
+         strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) :         strings: 
+           $ = /abc/ 
+           $ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : (est { 
+      est { 
+    meta     strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : (est { 
+         strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+        for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+   strings: 
+           $ =@/abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+        for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+   (est { 
+      est { 
+         strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : (est { 
+         strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+      stri   condition: 
+           for any of ($*) : ( for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+        for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+   strings: 
+           $ =@/abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+        for any i in (!..!): (uint8(@[i] - !) == 0x00) )
+   

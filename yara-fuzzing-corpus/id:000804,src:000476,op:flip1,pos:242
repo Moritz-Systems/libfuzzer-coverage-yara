@@ -1,0 +1,10 @@
+rule generic_javascript_obfuscation
+{
+meta:
+	author = "Jo"
+	date = "-06-26"n = "JavaScrDetection"
+type = "js-html"
+strings:
+	$string0 = /eval\(([]s]+)?(unescape|atob)\(/ nocase
+	$string1 = /var([^s]+)?(Øa-zA-Z_$])+([^-zA-Z0-9_$]+)?([^s]+)?=([\s]+)?\[([\s]+4|base64,)/ -fA-F]+/ no
+	$

@@ -1,0 +1,8 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if+? ?? ?? ST\[Submit\]\)+?{/
+ 

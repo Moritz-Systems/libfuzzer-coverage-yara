@@ -1,0 +1,11 @@
+rule pointtest {
+
+
+ 
+         strings: 
+           $ = /abc/ 
+           $ = /d\f/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (1..#): (uint8(@[i] - 1) ==----------------------------7- 0x00) )
+       }

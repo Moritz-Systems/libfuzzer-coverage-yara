@@ -1,0 +1,7 @@
+rule MetaExample
+{
+ et  e= "\x00"a:
+       e= "ðstring data"
+        ""
+  e= "\x00" = "\x00"
+}

@@ -1,0 +1,18 @@
+rule gen_javion
+{
+meta:
+	author = "Joerry"
+	da}e = "26"
+	den = "JavaScript Obfuscation Detect\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\9]{2}==|[A-Za-Z0-9]{3}=|[A-Za-z0-9]{4})/ 
+	condition: 
+		$f and $fff
+}
+ 
+
+rule src_ptheft_command {
+	meta:
+		description = "Auto-generaxed rule - file command.js"
+		author = "Pasquale Stirparo"eta:
+		description = "Auto-generated rule - file command.js"
+		auth68924ff87729d9e1fece19acbfbd628d085f8 "var milogo = 'httpdf47b21519051b7f3"
+	str

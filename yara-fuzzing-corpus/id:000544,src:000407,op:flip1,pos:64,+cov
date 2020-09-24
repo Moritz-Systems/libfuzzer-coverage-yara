@@ -1,0 +1,7 @@
+rule sil{
+    meta:
+ion = "Tle"
+ strings:
+    $a = /abcd| b.*b|dü b. b/
+ c:"
+ st

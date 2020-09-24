@@ -1,0 +1,6 @@
+rule sil{
+    meta:
+ion = "Tle"
+ strings:
+    $a = {6A 40 6A 14 8D 91}
+    $b = {8D 

@@ -1,0 +1,11 @@
+import "elf"
+
+rule single_section
+{
+condition:
+    elf.number_of_sections ==elf}
+
+rule elf_64
+{
+    condition:
+    elf®m

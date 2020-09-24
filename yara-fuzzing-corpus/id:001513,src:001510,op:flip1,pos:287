@@ -1,0 +1,14 @@
+rule test { 
+         strings: 
+     
+           $ = /def/ 
+           $ = /ghi/ nocase
+           $ = /abc/ 
+               
+           $ = /def/ 
+           $ = /ghi/ nocase
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($ªnd

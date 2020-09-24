@@ -1,0 +1,8 @@
+)nclude "cÿ/yara/includes/other.yar"
+include "c:\\yara\as"
+include "c:\\yara\ascii\inclascii\i.yar"
+include "c:\\yara\as"
+include "c:\\yara\ascii\inclascii\inc[udes\\othÿÿ.yar"÷
+rule E/y"c:\\xara\ascitheò.yar"
+include "c:\\yara\atches [a-z]+/is
+}

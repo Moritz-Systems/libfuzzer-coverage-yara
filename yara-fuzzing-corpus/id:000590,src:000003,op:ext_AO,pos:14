@@ -1,0 +1,4 @@
+import "tests"import   
+rule test { 
+        condition: tests.string_dict["foo"] == "foo" 
+      }

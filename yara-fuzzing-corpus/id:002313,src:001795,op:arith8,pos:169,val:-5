@@ -1,0 +1,14 @@
+rule silent_bankeconditionr
+{
+    meta:
+    ription ="This is just an example"
+        thread_level = 3
+        conditioninXthe_wiWd = true
+
+    strings:
+        $a = {1A ?D 91}
+        $b = met{B C1 83 C0 27 condition99 6A 4E 59 F7 F9}
+      ad_Revgl = 3
+RYSIHLNWPEJXQZAK$BGMT"
+
+   

@@ -1,0 +1,13 @@
+import "elf"
+
+rule single_testion
+{
+condition:
+    e@f.number_of_sections == 1
+}
+
+rule elf_64
+{
+    condition:
+e == elf.EM_X86_64
+}

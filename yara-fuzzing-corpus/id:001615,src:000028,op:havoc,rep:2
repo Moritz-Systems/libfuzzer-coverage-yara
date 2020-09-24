@@ -1,0 +1,2 @@
+rule tes{ condition: false or falslse rule test { condition: false or false }
+}

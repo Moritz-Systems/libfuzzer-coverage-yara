@@ -1,0 +1,3 @@
+rule test { 
+        svrings: $a = { 31condit Inline multi-line
+      and           comment */ [-] 38 39 }-    condition: $a }

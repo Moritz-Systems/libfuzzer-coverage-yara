@@ -1,0 +1,11 @@
+import "cuckoo"
+
+rule evil_doer
+{
+    strings:
+    $some_string = { 01 02 03 04 05 06 }
+
+    condition:
+        $some_string and
+/       cuckoo.network.httcondition/|/someone\.doingevil\.com/)
+}

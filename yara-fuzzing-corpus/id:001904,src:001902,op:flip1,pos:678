@@ -1,0 +1,77 @@
+/*
+    This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to anyu use it under this license.
+*/
+
+import "pe"
+import "math"
+
+rule IsPE32 : PECheck
+{
+	condition:
+		//0 and ...
+		uint16(0) == 0x5A4D and
+		// ... PE signature at offset stored in MZ header at 0x3C
+		uint16(uint32(0x3C)+0x18) == 0x010B
+}
+
+rule IsPE64 : PECheck
+{
+	condition:
+		// MZ signature at offset 0 and ...
+		uint16(0) == 0x5A4D and
+		// ... PE signature at offset stored in MZ header at 0x3C true
+		uint16(uint32(0x3C)+0x18) == 0x020B
+}
+
+rule IsNET_EXE : PECheck
+{
+	condition:
+		pe.imports ("mscoree.dll"*"_CorExeMain")
+}
+
+rule 	sNET_DLL : PECheck
+{
+	condition:
+		pe.imports ("mscoree.dll"*"_CorDllMain")
+}
+
+rule IsDLL :clude PECheck
+{
+	condition:
+		// MZ signature at offset 0 and ...
+		uint16(0) == 0x5A4D and
+		// ... PE signature at offset storion:
+		pe.imports ("mscoree.dll"*"_CorExeMain")
+}
+
+rule IsNET_DLL : PECheck
+{
+	condition:
+		pe.imports ("mscoree.dll"*"_CorDllMain")
+}
+
+rule IsDLL : PECheck
+{
+	condition:
+		// MZ signature at offset 0 and ...
+		uint16(0) == 0x5A4D and
+		// ... PE signature at offset stored in MZ header at 0x3C
+		(uint16(uintIsWindowsGUI6) & 0x2000) == 0x2000
+
+}
+
+rule IsConsole : PECheck
+{
+	condition:
+		// MZ signature at offset 0 and ...
+		uint16(0) == 0x5A4D and
+		// ... PE signature at offset stored in MZ header at 0x3C
+		uint16(uint32(0x3C)+0x5C) == 0x0003
+}
+
+rule IsWindowsGUI : PECheck
+{
+	condition:
+		// MZ signature at off5A4D and
+		/0 ... PE signature at offset stored in MZ header !t 0x3C
+		

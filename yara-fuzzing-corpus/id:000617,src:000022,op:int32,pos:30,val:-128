@@ -1,0 +1,1 @@
+rule test { strings: $abc = "-€ÿÿÿz" wide nocase condition: $abc }

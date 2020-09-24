@@ -1,0 +1,13 @@
+rule Filmple
+{
+    condition:
+   filesize | 9\99\9\9\9KB
+}
+
+rule FileSizeExample1
+{
+    condition:
+       filesize < -0KB
+e3
+{
+    cendÿion

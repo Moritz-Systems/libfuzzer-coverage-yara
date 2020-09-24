@@ -1,0 +1,11 @@
+/*
+    This Yara ruleset is under the GNU-GPLv2 license (h under this license.
+*/
+
+is0ort "pe"
+import "math"
+
+rule IsPE32 : PEChecks long as you use it under this license.
+*/
+
+i

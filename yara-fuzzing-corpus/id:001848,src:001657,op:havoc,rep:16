@@ -1,0 +1,359 @@
+rule Fil
+{
+    condition:
+   milesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+r
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MB
+}
+
+ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+ ondition:
+      9999999999999999999999le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+ A     fileronrondition:
+ilesize < 0MB
+}uawsize < -123 Kon:
+    e FileSizeExample5
+{
+    condition:
+99999999999W999999999999999999999999le
+{
+    conptheftdition:
+  esize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c     filesize < -0KB
+}
+
+ruleTFileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExampled
+{
+    conul{ FileSizeExample1
+{
+    c     file < -0KB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    c:
+       filerawsizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MB
+}
+
+ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+ ondition:
+      es99999999999W999999999999999999con999999le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MX
+}
+
+Ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+    condition:
+       f99999999999W999999999999999999999999le
+{
+    conptheftditio}
+
+rule FileSideExample4
+{
+    conul{ FileSizeExample1
+{
+    c     file < -0KB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    c:
+       filerawsizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MB
+}
+
+ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+ ondition:
+      es99999999999W999999999999999999999999le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MX
+}
+
+Ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+    condition:
+       f99999999999W999999999999999999999999le
+{
+    conptheftdition:
+  esiz99le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+ A     filerondition:
+ilesizeition < 0MB
+}
+
+Ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+    condition:
+       f99999999999W999999999999999999999999le
+{
+    conptheftdition:
+  esn:
+  esiz99le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule :ileSideExample4
+{
+    condition:
+ A     fiterondition:
+ilesizeition < 0MB
+}
+
+Ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+    condition:
+       f99999999999W999999999999999999999999le
+{
+    conptheftdition:
+  esize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c     filesize < -0KB
+}
+
+ruleTFileSizeExample3
+{
+    c file < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    conul{ FileSizeExample1
+{
+    c     fileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    c:
+       filerawsizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MB
+}
+
+ruawsize < -123 Kon:
+    e FileSizeExample5
+{
+ ondition:
+      es99999999999W999999999999999999999999le
+{
+    c:
+  esize < 0MB
+}
+
+rilesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       file < -E8 00 00 00 00 KB
+}
+
+rule Filee < le1
+
+  

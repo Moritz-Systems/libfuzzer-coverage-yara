@@ -1,0 +1,2 @@
+rule test { 
+        strings: $a = { 31 32 /* Inline ÿulti-lYneéionÿ           -               `coment*/ ////////////////////////ondition:}

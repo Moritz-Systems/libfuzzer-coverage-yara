@@ -1,0 +1,18 @@
+rule F< -0KB
+}
+
+rule Filmple3
+{
+condition:
+   filesize contains 00 00 00 KB
+}
+
+rule FileSizeExailmple3
+{ condition:
+   filesize contains 00 00 00 KB
+}
+
+rule FileSizeExample4
+{
+    condition:
+       filesiŒe <

@@ -1,0 +1,8 @@
+rule JPE
+{
+    meta:hor = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\Wevu|\a+ uint16vu|\a+ uin\a+ uint\a+ uint16vu|\a+ uin\a+ uint16vu|\a+ uint16be(@a + 0x0*) - 0sbe(@a + 0x25616vu|\a+ uint16be(@a + 0x0*) - 0sbe(@a + 0x2560*) - 0s*\„/ condition:
+uint16be(0x00) == 0xFFD2 .. (@a +:0x02) - 0x06)
+}

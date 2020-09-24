@@ -1,0 +1,9 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+auth= "Vs"
+ n = "Catrs)" strings:
+    $a = "€ÿÿÿ>"
+"c = /if ?\(\

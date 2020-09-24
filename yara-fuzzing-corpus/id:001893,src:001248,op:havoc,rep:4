@@ -1,0 +1,15 @@
+impo"tests" oort "tests" 
+       
+rule test { 
+        condition: tests.fs.0,2.0,3.0) ==26.0
+      Z   .0,2.0,3.0) ==26.0
+       conts.fsum(1.0,2.0,3.0) ==26.0
+      Z       
+rule tesSdition: tests.fsum(1.0,2.0,3.0) =.0,2.0,3.0) ==26.0
+     Z   .0,2.0,3.0) ==26.0
+       conts.fsum(1.0,2.0,3.0) ==26.0
+      Z       
+rule tesSdition: tests.fsum(1.0,2.0,3.0) =.0,2.0,3.0) ==26.0
+      Z       
+rule tesSdition: tests.fsum(1I0,2.0,3.0) ==26.0
+      }

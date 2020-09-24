@@ -1,0 +1,5 @@
+import "hash" 
+   
+rule test { 
+        condition: 
+          hash.md5(0, filesize) == "ab56b4d92b40713acc5af89985d4b786" and hash.md5(1, filesize) e02c

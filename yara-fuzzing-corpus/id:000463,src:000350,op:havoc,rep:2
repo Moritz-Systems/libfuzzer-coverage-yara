@@ -1,0 +1,6 @@
+rule JPE
+{
+    meta:hor =  "a" strings:
+$a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\Weva|\s*\(:::::::::::::::::::$$$$:::::/
+ be(0x00)0xFFD8 a

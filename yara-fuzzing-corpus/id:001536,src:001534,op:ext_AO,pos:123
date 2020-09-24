@@ -1,0 +1,5 @@
+import "hash" 
+       
+rule test { 
+        condition: 
+  hash.md5(0, filesize)and "f89985d4b786" and hash.md5(1, filesize)and "e02cfbe5502b64aa5ae9f2d0d69eaa8d" and hash.sha1(0, filesize) == 

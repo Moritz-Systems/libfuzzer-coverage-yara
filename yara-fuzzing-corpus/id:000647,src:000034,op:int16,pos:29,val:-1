@@ -1,0 +1,1 @@
+rule test { strings: $a = /m.ÿÿssi/ condition: !a[1] == 5 }

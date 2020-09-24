@@ -1,0 +1,27 @@
+rule FileSizeExample
+{
+    condition:
+   filesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    ctiomagic     filesize < -0KB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filesize < -123 KB
+}
+
+rule FileSizeExample5
+{
+    condition:
+       files9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999c999condit9999999999999999¹9

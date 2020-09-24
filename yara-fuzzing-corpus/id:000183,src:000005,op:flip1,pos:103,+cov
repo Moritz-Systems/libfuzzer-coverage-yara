@@ -1,0 +1,20 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\(\$_POST\SSubmit\]\) ?{/
+    condition:
+    all of them
+}
+
+rule ch
+{
+    meta:hor  = "-s"
+date= "28"
+ on = "Cars)" strings:
+    $a = "t="
+condition:
+    all of them
+}

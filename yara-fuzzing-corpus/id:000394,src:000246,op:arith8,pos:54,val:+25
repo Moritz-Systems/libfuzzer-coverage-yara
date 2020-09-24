@@ -1,0 +1,8 @@
+rule sil{
+    meta:
+ion = "Tle"
+ strings:
+    $a = /ab||| b. |/
+ condition:
+$a 
+}

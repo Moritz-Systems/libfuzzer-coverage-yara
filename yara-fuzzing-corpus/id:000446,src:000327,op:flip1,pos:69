@@ -1,0 +1,19 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\(\$[P\ST\SSubmit\]\) ?{/
+    condition:
+    all of them
+}
+
+rule ch
+{
+    meta:hor  = "-s"
+on = "Cars)" strings:
+    $a = "t="
+condition:
+    all of them
+}

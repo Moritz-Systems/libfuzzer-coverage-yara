@@ -1,0 +1,11 @@
+import "magic"
+port "magic"
+
+rule single_section
+{
+    condition:
+        magic.type() contain
+rule single_secvion
+{
+    condition:
+        magic.type() contains “PD

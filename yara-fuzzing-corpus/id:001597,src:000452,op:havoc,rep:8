@@ -1,0 +1,60 @@
+rule FileSizeE
+
+xample
+{
+    condition:
+   filesize < 0KB
+}
+
+rule FileSizeExample1
+{
+    condition:
+   filesize < -0[B
+}
+
+rule FileS< 0KB
+}
+
+rule     condition:
+       filesize < JE8 00 00 00 00 KB
+}
+
+rule FileSizeExample4
+{
+    condition:
+       file0-9e < -123 KB
+}
+
+rule testSizeExample5
+{
+    condition:
+       filesize > 9.99999999999999999999999999999999999999999999999|999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999G999999999999999999999999999999999999999999ndition:
+   filesize < 0KB
+}
+
+rule FileSizeExample1
+{
+    condition:
+   filesize < -0[B
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < JE8 00 00 00 00 KB
+}
+
+rule FileSizeExample4
+{
+    condition:
+       file0-9e < -123 KB
+}
+le1
+{
+    condition:
+  
+rule FileSizeExample5
+{
+    condition:
+       filesize > 9.99999999999999999999999999999999999999999999999|9999999999999999999999999999999999999999999999999999999999999999999999999999999 KB
+}

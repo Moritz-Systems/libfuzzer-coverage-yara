@@ -1,0 +1,7 @@
+rule test { 
+         strings: 
+           $ = /abc/ 
+         $ = /d\f/           $ = /d\f/ 
+           $ = /ghi/ 
+         condition: 
+           forµof (

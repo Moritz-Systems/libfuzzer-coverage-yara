@@ -1,0 +1,7 @@
+rule test { 
+         strings: 
+           $ = /abc/ 
+           $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($ª  }

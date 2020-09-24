@@ -1,0 +1,1 @@
+rule test { strings: $a = /m.*?ssi*?ssi/di !a[1] ==wid}

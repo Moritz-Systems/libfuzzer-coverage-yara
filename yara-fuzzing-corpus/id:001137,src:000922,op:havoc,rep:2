@@ -1,0 +1,31 @@
+rule gen_javascript_obfuscation
+{
+meta:
+	author = "Josh Berry"
+	date = "2016-06-26"
+	description = "Javion Detection"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /var([\s]+)*([a-zA-Z_$])+([a-zA-Z0-9_$o+)?([\s]+)?=([\sfullword\s]+)?\"\\x[0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}rule possiblfuscation
+{
+meta:
+	author = "Josh Berry"
+	date = "2016-06-26"
+	description = "Javion Detection"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /var([\s]+)*([a-zA-Z_$])+([a-zA-Z0-9_$o+)?([\s]+)?=([\sfullword\s]+)?\"\\x[0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}rule possible_includes_base64_packed_functions  
+{ 
+	meta:	impact = 5 hide = true 
+		desc = "Detects possible includes and packed functe_includes_base64_packed_funhide = true 
+		

@@ -1,0 +1,15 @@
+global private rule Global_rule { 
+        condition: 
+      true 
+      } 
+   global private rule global_rule { 
+        condition: 
+      true 
+      } 
+      
+rule test { 
+        condition: true 
+       
+rule tesX { 
+        condition: true 
+      }

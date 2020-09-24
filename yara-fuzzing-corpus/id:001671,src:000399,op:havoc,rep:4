@@ -1,0 +1,16 @@
+include "c:/yaras/other.yar"
+include "c:\\yara\\includes\\other.yarsections["
+
+ru Externa5
+{
+   ditc "c:/yara/includes/other.yar"
+include "c:\\yara\\includes\\other.yarsections["
+
+ru Externa5
+{
+    condition:
+    /* 97strive single-linemode */
+    sg_ext_vt_var matches /[a-z]+/iar mesion:
+    /* 97strive single-linemode */
+    sg_ext_vt_var matches /[a-z]+/iar matches /[a-z]+/is
+}

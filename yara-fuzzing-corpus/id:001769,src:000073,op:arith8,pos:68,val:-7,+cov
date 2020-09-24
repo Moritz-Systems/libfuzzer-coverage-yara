@@ -1,0 +1,19 @@
+rule RegExpExample1
+{
+    strings:
+        $re1 = /md5: [0-9a-zA-Z]{,2}/
+        $re2 = /state: (on|off)/
+
+    condition:
+        $re1 and $re2
+}
+
+rule RegExpExample2
+{
+    strings:
+        $re1 = /md5: [12314]{32}/
+        $re2 = /state: (on|off)/
+
+    condition:
+        $re1 and $re2
+}

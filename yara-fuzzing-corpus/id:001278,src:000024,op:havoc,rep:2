@@ -1,0 +1,4 @@
+rule test { 
+    strings: $a = { 64 0? 01 } 
+         00 00 ?0 0O } 
+        condition: $a }

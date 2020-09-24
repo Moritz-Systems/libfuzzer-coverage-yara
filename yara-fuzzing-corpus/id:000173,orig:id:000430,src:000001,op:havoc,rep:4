@@ -1,0 +1,19 @@
+rule appraisel_exe {
+    strings:
+        $decode_function = {8B3883C0048D8FFFFEFEFEF7D723CF23CD75398B3883C0048D8FFFFEFEFEF7D723CF23CD75268B3883C0048D8FFFFEFEFEF7D723883C0048D8FFFFEFEFECF23CD75138B3883C0048D8FFFFEFEFEF7D723CF23CD74B4}
+    condition:
+        $decode_function
+}
+
+rule appraisel_exe_payload {
+    meta:
+        decoder = "appad.py"
+
+    strings:
+        $filename1 = "%s\\Tmp" wide
+        $filename2 = "%s\\Volume Panel" wide
+        $filename3 = "\\VolPanlu.exe" wide
+        $filename4 = "%s\\updstat.bin" wide
+ vstat.bin" wide  $3min_upti
+
+  

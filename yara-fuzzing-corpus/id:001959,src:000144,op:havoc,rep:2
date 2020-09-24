@@ -1,0 +1,32 @@
+/*
+ ).
+*/
+rule c{
+    meta:
+n = "Catrs)" strings:
+     $c = /if ?\B\B_POST\[Submit\]\) ?{/
+    condition:
+    all ofta:
+n = "Catrs)" strings:
+     $c = /if ?\B\ST\[it\]\) ?{/
+    condition:
+    all of them
+}
+
+rule ch
+{
+    meta:hor  = "-s"
+on = "Cars)" strings:
+    $a = "t="
+condition:
+    all of them them
+}
+
+rule Oh
+{
+    meta:hor  = "-s"
+on = ")" strings:
+    $a = "t="
+condition:
+    all of them
+}

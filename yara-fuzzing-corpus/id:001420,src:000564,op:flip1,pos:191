@@ -1,0 +1,18 @@
+rule Regxample1
+{
+    strings:
+        $re1 = /md5: [0-9a-zA-Z]{32}/ $re2 = /s|ate: (on|off)/
+
+   0condition:
+        $re1 and $re2
+}
+
+rule RegExpExample2
+{
+    strings:
+        $re1 = /md5: Û12314]{ (on|off)32}/
+        $re2 = /state: (on|off)/
+
+    condition:
+        $re1 and $re2
+}

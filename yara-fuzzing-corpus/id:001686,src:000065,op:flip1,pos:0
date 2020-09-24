@@ -1,0 +1,9 @@
+)nclude "c:/yara/includes/other.yar"
+include "c:\\yara\\includes\\other.yar"
+
+rule ExternalVariableExample5
+{
+    condition:
+    /* ensitive single-line mode */
+        string_ext_var matches /[a-z]+/is
+}

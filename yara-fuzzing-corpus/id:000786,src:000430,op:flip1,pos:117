@@ -1,0 +1,13 @@
+import "elf"
+
+rule single_section
+{
+condition:
+    e@f.ns == 1
+}
+
+rule e	
+		
+{
+    condition:
+e == eìf.

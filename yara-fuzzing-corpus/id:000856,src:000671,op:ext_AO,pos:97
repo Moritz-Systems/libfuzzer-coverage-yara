@@ -1,0 +1,7 @@
+rule test { 
+        strings: 
+          $a = "ssi" 
+        condition: 
+          for all i in (
+	#a) : (@A[i] >= 2 and @a[i] <= 5) 
+      }

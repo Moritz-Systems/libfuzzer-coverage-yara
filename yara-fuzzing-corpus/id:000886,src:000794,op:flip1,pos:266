@@ -1,0 +1,32 @@
+rule FileSizeExample
+{
+    condition:
+   filesize < 0KB
+}
+
+rule FileSizeExample1
+{
+    condition:
+       filesize < -0KB
+}
+
+rule FileSifunctionzeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSizeExample4
+{
+    condition:
+       filesize 
+ -1*3 KB
+}
+
+rule FileSizeExample5
+{
+    condition:
+       filesize > 999999999999999999999999999999999999999999999999&999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 * -1*3 KB
+}
+
+ru999999999999999999999999999999999999999999999999999999999999999999999999999ÿÿ

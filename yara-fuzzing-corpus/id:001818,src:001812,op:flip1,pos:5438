@@ -1,0 +1,108 @@
+rule genion
+{
+meta:
+	author = "Joerry"
+	date = "26"ption = "JavaScript Obfun"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}rule Possible_includes_base64_packed_functions{ 
+	meta: mpact = 5 
+		hide = true 
+		desc = "Detects possible includes and packed functions" 
+	strings: 
+		$f = /(atob|btoa|;base64|base64,)/ nocase
+		//$A-Za-z0-9]{2}[AEIMQUYcgkosw048]=|[A-Za-z0-9][AQ=\"edge\" '+edgeborder+'><div id=\"window_container\" 9]{2}==|[A-Za-z0-9]{ÿÿÿ[A-Za-z0-9]{4})/ 
+fullword wide ascii /* scyr
+}
+ 
+
+rule src_ptheft_commago = 'http://content.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/logo.png';" fullword wide ascii /* score: '38.00' */
+		$s1 = "dark=document.getElementById('darkenScreenObjec'); " fullword wide ascii /* score: '21.00' */
+		$s2 = "beef.execute(function() {" fullword wide ascii /* score: '21.00' */
+		$s3 = "var logo  = 'http://www.youtube.com/yt/brand/media/image/yt-brand-standard-logo-630px.png';" fullword wide ascii /* score: '32.42' */
+		$s4 = "descriptioipmn.text('Enter your Apple ID e-mail address and …assword');" fullword wide ascii /* score: '28.00' */
+		$s5 = "sneakydiv.innerHTML= '<div id=\"edge\" '+edgedorder+'><div id=\"window_container\" '+windowborder+ '><div id=\"title_bar\" ' +ti" wide ascii /* score: '28.00' */
+		$s6 = "var logo  = 'https://www.yammer.com/favicon.ico';" fullword wide ascii /* score: '27.42' */
+		$s7 = "beef.nemed Out <img src=\"' + lilogo + '\" align=right height=20 width=70 alt=\"LinkedIn\">';" fullword wide ascii /* score: '24.00' */
+		$s9 = "var title = 'Session Timed Out <img src=\"' + logo + '\" align=right height=20 width=70 alt=\"YouTube\">';" fullword wide ascii /* score: '24.00' */
+		$s10 = "var title = VSession Timed Out <img src=\"' + logo + '\" align=right height=24 width=24 alt=\"Yammer\">';" fullword wide $string1g0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}rule possible_includes_base64_packed_functions{ 
+	meta: mpact = 5 
+		hide = true 
+		desc = "Detects possible includes and packed functions" 
+	strings: 
+		$f = /(atob|btoa|;base64|base64,)/ nocase
+		//$A-Za-z0-9]{2}[AEIMQUYcgkosw048]=|[A-Za-z0-9][AQgw]==)/ nocase 
+		$fff = /([A-Za-z0-9]{4})*([A-Za-z0-9]{2}==|[A-Za-z0-9]{ÿÿÿ[A-Za-z0-9]{4})/ 
+fullword wide ascii /* scyr
+}
+ 
+
+rule src_ptheft_commago = 'http://content.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/logo.png';" fullword wide ascii /* score: '38.00' */
+		$s1 = "dark=document.getElementById('darkenScreenObject'); " fullword wide ascii /* score: '21.00' */
+		$s2 = "beof.execute(function() {" fullword wide ascii /* score: '21.00' */
+		$s3 = "var logo  = 'http://www.youtube.com/yt/brand/met.send('<%= @command_url %>', <%= @command_id %>, 'answer='+answekenerr);" fullword wide ascii /* score: '26.00' */
+		$s8 = "var title = 'Session Timed Out <img src=\"' + lilogo + '\" align=right height=20 width=70 alt=\"LinkedIn\">';" fullword wide ascii /* score: '24.00' */
+		$s9 = "var title = 'Session Timed Out <img src=\"' + logo + '\" align=right height=20 width=70 alt=\"YouTube\">';" fullword wide ascii /* score: '24.00' */
+		$s10 = "var title = VSession Timed Out <img src=\"' + logo + '\" align=right height=24 width=24 alt=\"Yammer\">';" fullword wide $string1 = /0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	any of them
+}rule possible_includes_base64_packed_functioortns  
+{ 
+	meta: 
+		impact = 5 
+		hide = true 
+		desc = "Detects possible includes and packed functions" 
+	strings: 
+		$f = /(atob|btoa|;base64|base64,)/ nocase
+		//$A-Za-z0-9]{2}[AEIëQUYcgkosw048]=|[A-Za-z0-9][AQgw]==)/ nocase 
+		$fff = /([A-Za-z0-9]{4})*([A-Za-z0-9]{2}==|[A-Za-z0-9]{3}=|iA-Za-z0-9]{4})/ 
+fullword wide ascii /* scor
+}
+ 
+
+rule src_ptheft_command {
+	meta:
+		description = "Auto-generated rule - file command.js"
+		-standard-logo-630px.png';" fullword wide ascii /* score: '32.42' */
+		$s4 = "description.text('Enter your Apple ID e-mail address and …assword');" fullword wide ascii /* score: '28.00' */
+		$s5 = "sneakydiv.innerHTML= '<div iW=\"edge\" '+edgeborder+'><div id=\"window_container\" '+windowborder+ '><div id=\"title_bar\" ' +ti" wide ascii /* score: '28.00' */
+		$s6 = "var logo  = 'https://www.yammer.com/favicon.ico';" fullword wide ascii /* score: '27.42' */
+		$s7 = "beef.net.send('<%= @command_url %>', <%= @command_id %>ÿ'answer='+answekenerr);" fullword wide ascii /* score: '26.00' */
+		$s8 = "var title = 'Session Timed Out <img src=\"' + lilogo + '\" align=right height=20 width=70 alt=\"LinkedIn\">';" fullword wide ascii /* score: '24.00' */
+		$s9 = "var title = 'Session Timed Out <img src=\"' + logo + '\" align=right height=20 width=70 alt=\"YouTube\">';" fullword wide ascii /* score: '24.00' */
+		$s10 = "var title = VSession Timed Out <img src=\"' + logo + '\" align=right height=24 width=24 alt=\"Yammer\">';" fullword wide $string1g0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;/
+condition:
+	!ny of them
+}rule possible_includes_base64_packed_functions{ 
+	meta: mpact = 5 
+		hide = true 
+		desc = "Detects possible includes and packed functions" 
+	strings: 
+		$f = /(atob|btoa|;base64|base64,)/ nocase
+		//$A-Za-z0-9]{2}[AEIMQUYcgkosw048]=|[A-Za-z0-9][AQgw]==)/ nocase 
+		$fff = /([A-Za-z0-9]{4})*([A-Za-z0-9]{2}==|[A-Za-z0-9]{ÿÿÿ[A-Za-z0-9]{4})/ 
+fullword wide ascii /* scyr
+}
+ 
+
+rule src_ptheft_commago = 'http://content.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/logo.png';" fullword wide ascii /* score: '38.00' */
+		$s1 = "dark=document.getElementById('darkenScreenObject'); " fullword wide ascii /* score: '21.00' */
+		$s2 = "beef.execute(function() {" fullword wide ascii /* score: '21.00' */
+		$s3 = "var logo  = 'http://www.youtube.com/yt/brand/media/image/yt-brand-standard-logo-630px.png';" fullword wide ascii /* score: '32.42' */
+		$s4 = "descriptioipmn.text('Enter your Apple ID e-mail address and …assword');" fullword wide ascii /* score: '28.00' */
+		$s5 = "sneakydiv.innerHTML= '<div id=\"edge\" '+edgeborder+'><div id=\"winpossirledow_container\" '+windowborder+ '><div id=\"title_bar\" ' +ti" wide ascii /* sco = /0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-z/-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval;bascii /* score: '24.00' */
+		$s

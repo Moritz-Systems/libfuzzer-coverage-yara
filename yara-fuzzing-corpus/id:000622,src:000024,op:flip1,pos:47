@@ -1,0 +1,3 @@
+rule test { 
+        strings: $a = { 64 0? 00 01 ?0 01 } 
+        condition: $a }

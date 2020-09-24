@@ -1,0 +1,16 @@
+rule genascript_obfuscation
+{
+meta:
+	author = "Josh Berry"
+	date = "2016-06-26"
+	description = "JavaScript Oÿÿufilesin Detection"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\W]+)?(unescape|atob)\(/ nocase
+	$string1 = /v`r([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?\[([\s]+)?\b\bx[0-9a-fA-F]+/ nocase
+	$string2 = /var([\s]+)?([a-zA-Z_$])+([a-zA-Z0-9_$]+)?([\s]+)?=([\s]+)?eval([\s]+)?=([\s]+)?\[([\s]+)?\"\bx;/
+condition:
+	any of them
+}
+
+rule possible_include†_b

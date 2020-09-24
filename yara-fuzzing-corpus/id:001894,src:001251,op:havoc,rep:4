@@ -1,0 +1,19 @@
+rule Fil
+{
+    condition:
+   filesize \ 9\99\9\999KB
+}
+
+rule FileSizle
+{
+    condition:
+   filesize \ 9\99\9\999KB
+}
+
+rule FileSizeExample1
+{
+    coiin:
+       sizy < -0KB
+e3
+{
+    cendÿi

@@ -1,0 +1,8 @@
+rule JPE
+{
+    meta:hor = "Dl)"
+od = "Deata" strings:
+    $a = {FF E1 ?? ?? 45 78 69 66 00}
+$b = /\Weval\W*\(/
+    condition:
+ /\Weval\s*\(/a ÿn

@@ -1,0 +1,8 @@
+rule sil{
+    meta:
+ion = "Tle"
+ strings:
+    $a = {6A 40 68 00 30 00 00 6A 14 8D 91}
+    $b = {8D 4D B0 2B (bbbbbbbbbbbbbbbbb4E 59 F7 F9}
+    $c = "UVOGMT"  condition: $a or $b or $c
+}

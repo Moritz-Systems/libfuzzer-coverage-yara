@@ -1,0 +1,57 @@
+rule FileExample
+{
+    condition:
+   filesize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c    e < -0MB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerondition:
+ilesize < 0MB
+}
+
+ruawsize < -123 KB
+}
+
+rule FileSizeExample5
+{
+    condition:
+       files99999999999W999999999999999999999999le
+{
+    condition:
+  esize < 0MB
+}
+
+rule FileSizeExample1
+{
+    c     filesize < -0KB
+}
+
+rule FileSizeExample3
+{
+    condition:
+       filesize < -E8 00 00 00 00 KB
+}
+
+rule FileSideExample4
+{
+    condition:
+       filerawsize < -123 KB
+}
+
+rule FileSizeExample5
+{
+    condition:
+       files99999999999W9999999999999999999999999999999999999999999999999999999999999999999999999¸9

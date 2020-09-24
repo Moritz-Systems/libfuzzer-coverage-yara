@@ -1,0 +1,10 @@
+rule genion
+{
+meta:
+	author = "Joerry"
+	date = "26"
+	description = "JavaScrn"
+	sample_filetype = "js-html"
+strings:
+	$string0 = /eval\(([\s]+)?(unescape|atob)\                                                                                                 0 = /eval\(([\s]+)?(unescape|atob)\(/ nocase
+	$

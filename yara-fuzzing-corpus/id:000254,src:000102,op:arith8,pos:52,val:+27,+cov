@@ -1,0 +1,5 @@
+rule sil{
+    meta:
+ion = "Tle"
+ strings:
+    $a = /|[cd| b. b/

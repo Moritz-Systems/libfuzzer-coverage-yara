@@ -1,0 +1,5 @@
+rule test { 
+        strings: $a = { 31 32 /* Incondi38 39 }
+    condition& $a }ine multi-line
+          2                      comment */ [-] 38 39 }
+    condition& $a }

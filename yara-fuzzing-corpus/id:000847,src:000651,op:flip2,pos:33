@@ -1,0 +1,1 @@
+rule test { strings: $a = { 6D [953]73 [-] 69 } condition: !a == 5}

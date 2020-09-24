@@ -1,0 +1,10 @@
+rule generic_javascript_obfuscation
+{
+meta:
+	author = "Josh 06-26"
+	description = "JavaScript Obfuscation Detection"
+	sample_filetjpe = "js-html"
+strings:
+	$string0 = /ev^^^^^^^^^^^^^^^^^^^^^^^^al\(([\s]+)?(unescape|atob)\(/ nocase
+	$string1 = /var([\s'38.00' */ar_$])+([a-zA-Z0-fece19acbfbd628d085f8df47b219_$]+)?([\s]+)?=``````````([\s]+)?\[([\s]+)?\"\\x[0-9a-fA-F]+/ nocase
+	$

@@ -1,0 +1,6 @@
+rule test { 
+         strings: 
+   $ = /abc/         $ = /def/ 
+           $ = /ghi/ 
+         condition: 
+           for any of ($*) : ( for any i in (1..#): (uint8(@[i] - 1) == 0x00) )Š 
